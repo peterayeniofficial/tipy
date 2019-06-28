@@ -1,0 +1,56 @@
+
+      body {
+        background: #fff;
+      }
+      .mdc-typography--headline4 {
+        margin: 0.5em;
+      }
+      
+      .tip {
+        float: right;
+      }
+      
+      .menu {
+        margin: 1em auto;
+      }
+      
+      .menu img {
+        display: block;
+        width: 100%;
+        min-width: 131px;
+        min-height: 150px;
+        
+      }
+      
+      .menu p {
+        text-align: center;
+        min-height: 32px;
+      }
+      
+      .item {
+        width: 40%;
+        padding: 0.4em;
+        margin: 0.4em;
+        border: 1px solid white;
+        display: inline-block;
+        cursor: pointer;
+      }
+      
+      .item[data-selected] {
+        border-color: #333;
+      }
+      
+      .actions {
+        text-align: center;
+        margin-top: 1em;
+      }
+      
+      .actions span {
+        transform: scale(1.5);
+        cursor: pointer;
+      }
+      
+      .rated {
+        color: orange;
+      }
+    
